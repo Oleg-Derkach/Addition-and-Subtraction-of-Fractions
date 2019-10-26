@@ -33,7 +33,7 @@ def find_frict(dr1, sign, dr2):
     return [int(sign * da), int(de)]
 
         
- if __name__ == '__main__':
+if __name__ == '__main__':
     
     while True:
         dr1 = [int(i) for i in input('введите дробь 1 в фомате 1/4: ').split('/')]
